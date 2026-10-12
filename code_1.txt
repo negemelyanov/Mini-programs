@@ -1,0 +1,8 @@
+n = int(input())
+m = 16
+for i in range (n):
+    a = int(input())
+    if a%8 == 0 and a%10 == 6:
+        m = m + a
+    if a == 0: break
+print (m)

@@ -1,0 +1,7 @@
+n = int(input())
+m = 0
+for i in range (n):
+    a = int(input())
+    if a%6 == 0:
+        m = m + a
+print (m)

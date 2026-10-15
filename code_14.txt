@@ -1,0 +1,11 @@
+sp = [] #Список
+n = int(input())
+for x in range (n):
+    x = int(input())
+    sp.append(x) #Функция добавления чисел 
+    print (round(min(sp) + max(sp) / max(sp), 1))
+    if min(sp) < 40: 
+        print ("YES")
+else:
+    print ("NO")
+

@@ -1,0 +1,8 @@
+sp = [] #Список
+x = int(input())
+while x != 0:
+    sp.append(x) #Функция добавления чисел
+    x = int(input())
+sp.sort #Сортировка по возрастанию
+print (sp[-1] + sp [-2])    
+print (sp[0] + sp [1])

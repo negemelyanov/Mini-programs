@@ -1,0 +1,11 @@
+sp = [] #Список
+n = int(input())
+b = 0
+for x in range (n):
+    x = int(input())
+    sp.append(x) #Функция добавления чисел 
+    if min(sp) < 30 and max(sp) < 30: 
+        print (max(sp) - min(sp))
+print (max(sp) - min(sp))
+print (b)
+
